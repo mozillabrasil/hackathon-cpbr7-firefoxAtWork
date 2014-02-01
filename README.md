@@ -6,7 +6,7 @@ atWork-for-Firefox-OS
 
 =====================
 AUTOR: Rodrigo Portillo
-URL: http://portillodesign.com.br \n
+URL: http://portillodesign.com.br 
 EMAIL: rodrigo@portillodesign.com.br
 MANIFESTO: http://portillodesign.com.br/atwork/client/manifest.webapp
 
