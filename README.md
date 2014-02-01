@@ -5,7 +5,7 @@ firefox App for Firefox OS Hackaton
 atWork-for-Firefox-OS
 
 =====================
-AUTOR -> Rodrigo Portillo
+AUTHOR -> Rodrigo Portillo
 URL -> http://portillodesign.com.br
 EMAIL -> rodrigo@portillodesign.com.br
 ===========
