@@ -1,0 +1,37 @@
+<div class="data_hora">
+				<div id="dataAtual" class="data">
+					00/00/0000
+				</div>
+				<div id="horaAtual" class="hora">
+					00:00<span>s00</span>
+				</div>
+			</div>
+			<section role="region" class="slider_area">
+				<article role="slider" id="slideAt" class="slide slider_blue">
+					<h1>at Work</h1>
+				</article>
+				<article id="slideOut" class="slide slider_green">
+					<h1>out Work</h1>
+				</article>
+			</section>
+<script>
+	startTime(); //Inicia relógio
+	$("#dataAtual").html(today);
+	$("#titulo").fitText(.15);
+	$("#horaAtual").fitText(.4);
+	$("#dataAtual").fitText(2);
+	
+	//Sliders
+$("#slideAt").click(function(){
+	alternarCondicao("at");
+	enviarDados();
+});
+
+$("#slideOut").click(function(){
+	alternarCondicao("out");
+	enviarDados();
+});
+
+capturar("../dados/dados.php?acao=4&id_usuario="+"1"+"&tabela=pontos");
+  
+</script>

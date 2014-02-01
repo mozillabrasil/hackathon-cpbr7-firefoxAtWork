@@ -1,0 +1,41 @@
+<div id="projetosTela" class="tela_projetos">
+	<menu id="menuProjetos">
+
+	</menu>
+</div>
+<script>
+//CARREGAR PROJETOS AJAX
+var url = "../dados/dados.php?acao=0&tabela=projetos"
+$.ajax({
+        url: url,
+        cache: false,
+        type: "GET",
+        dataType: "json",
+        beforeSend: function () {
+        },
+        error: function (retorno) {
+            alert("bugou:"+retorno.erro);
+        },
+        success: function (retorno) {
+        	if(retorno){
+        		var prj = "";
+        		for(var i=0; i < retorno.length; i++){
+        			prj += "<li onclick='meBoteLaEmProjetos(event)'>";
+	        		prj += retorno[i].titulo + " - " + retorno[i].id;
+	        		prj += "</li>";
+	        	}
+	        	
+	        	$("#menuProjetos").html(prj);
+        	}
+        	
+        	
+		}
+	});
+function meBoteLaEmProjetos(event){
+	var cont = $(event.target).html();
+		cont = cont.split(" - ");
+	$("#projeto").val(cont[1]);
+	$("#projeto_sel p").html(cont[0]);
+}
+	
+</script>

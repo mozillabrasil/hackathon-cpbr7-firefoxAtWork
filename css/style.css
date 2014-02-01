@@ -1,0 +1,208 @@
+body{
+	font-size: large;
+	color: grey;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.cabecalho_superior{
+	font-size: larger;
+	background-color: #4387da;
+	color:white;
+	height: 9%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	-moz-transition: all 1s ease;
+	-webkit-transition:  all 1s ease;
+	transition:  all 1s ease;
+}
+
+.cabecalho_superior h1{
+	margin: 0.3em 0.3em;
+	font-weight: bold;
+	float: left;
+	font-size: 150%;
+	width: 50px
+}
+
+.cabecalho_superior .config{
+	margin: 0;
+	font-weight: bold;
+	float: right;
+}
+
+.blue{
+	color:#4387da !important;
+	-moz-transition: all 1s ease;
+	-webkit-transition:  all 1s ease;
+	transition:  all 1s ease;
+}
+
+.green{
+	color:#44d9b6 !important;
+	-moz-transition: all 1s ease;
+	-webkit-transition:  all 1s ease;
+	transition:  all 1s ease;
+}
+
+.content{
+	overflow: hidden;
+	width: 100%;
+}
+
+.content .data_hora{
+	position: absolute;
+	background-color: white;
+	height: 25%;
+	width: 100%;
+	color:#4387da;
+	left:0;
+	right: 0;
+	top:10%;
+	-moz-transition: all 1s ease;
+	-webkit-transition:  all 1s ease;
+	transition:  all 1s ease;
+}
+
+.content .data_hora .data{
+	text-align: center;
+	width: 100%;
+	font-size: medium;
+	width: 100%;
+}
+
+.content .data_hora .hora{
+	display: block;
+	font-size: 8em;
+	text-align: center;
+	vertical-align: bottom;
+	width: 100%;
+}
+.content .data_hora .hora span{
+	font-size: 0.3em;
+}
+.slider_area{
+
+}
+.slider_area .slider_blue, .slider_area .slider_green{
+	color: white;
+	position: absolute;
+	bottom: 0;
+	top:30%;
+	left: 0;
+	right: 0;
+	opacity: 0;
+}
+
+.slider_area h1{
+	text-align: center;
+	font-size: 2em;
+	margin: 0;
+	margin-top: 15%;
+}
+
+.slider_area .slider_blue{
+	background-color: #4387da;
+}
+.slider_area .slider_green{
+	background-color: #44d9b6;
+}
+
+.ultimo{
+	position: absolute;
+	z-index: 1001;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 5%;
+	background-color: #f0f7f9;
+	padding: 0.3em;
+}
+.ultimo div{
+	display: inline-block;
+	float: right;
+	margin-left: 2em;
+}
+.ultimo div:first-child{
+	float: left;
+	margin-left: 0;
+}
+.ultimo h2{
+	font-size: 0.3em;
+	color: #658286;
+	margin: 0;
+	font-weight: 100;
+}
+
+.ultimo p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 4em;
+	color: #658286;
+}
+
+/**MENU**/
+.tela_menu{
+	position: absolute;
+	top:9%;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	background-color: #dde7e5;
+}
+
+.tela_menu menu{
+	padding: 5%;
+	margin: 0;
+}
+
+.tela_menu menu li{
+	list-style: none;
+	padding: 3%;
+	text-align: center;
+	background-color: #82898d;
+	color: white;
+	font-size: larger;
+	margin-bottom: 3%;
+	border-radius: 10px;
+}
+
+.tela_menu menu li:last-child{
+	margin-bottom: 0;
+}
+
+/**PROJETOS**/
+.tela_projetos{
+	position: absolute;
+	top:9%;
+	bottom: 5%;
+	left: 0;
+	right: 0;
+	background-color: #114240;
+}
+
+.tela_projetos menu{
+	padding: 5%;
+	margin: 0;
+}
+
+.tela_projetos menu li{
+	list-style: none;
+	padding: 3%;
+	text-align: center;
+	background-color: #1b8172;
+	color: white;
+	font-size: larger;
+	margin-bottom: 3%;
+	border-radius: 10px;
+}
+
+.tela_projetos menu li:last-child{
+	margin-bottom: 0;
+}
