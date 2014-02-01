@@ -8,6 +8,7 @@ atWork-for-Firefox-OS
 AUTHOR -> Rodrigo Portillo
 URL -> http://portillodesign.com.br
 EMAIL -> rodrigo@portillodesign.com.br
+
 ===========
 
 atWork (@Work) é um sistema de controle de tempo, horas trabalhadas e projetos.
