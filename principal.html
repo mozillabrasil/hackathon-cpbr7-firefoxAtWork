@@ -17,6 +17,7 @@
 <script>
 	startTime(); //Inicia relógio
 	$("#dataAtual").html(today);
+	capturar("../dados/dados.php?acao=4&id_usuario="+"1"+"&tabela=pontos");
 	$("#titulo").fitText(.15);
 	$("#horaAtual").fitText(.4);
 	$("#dataAtual").fitText(2);
@@ -24,14 +25,14 @@
 	//Sliders
 $("#slideAt").click(function(){
 	alternarCondicao("at");
+
 	enviarDados();
 });
 
 $("#slideOut").click(function(){
 	alternarCondicao("out");
+
 	enviarDados();
 });
-
-capturar("../dados/dados.php?acao=4&id_usuario="+"1"+"&tabela=pontos");
   
 </script>

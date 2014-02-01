@@ -1,0 +1,13 @@
+{
+	"name": "atWork Beta",
+	"description": "Sistema de controle de horas trabalhadas em projetos e a distancia",
+	"launch_path": "/atwork/client/index.html",
+	"icons": {
+	"128": "/atwork/client/img/icon_128.png",
+	"64": "/atwork/client/img/icon_64.png"
+	},
+	"developer":{
+		"name": "Rodrigo Portillo - PortilloDesign",
+		"url": "http://www.portillodesign.com.br"
+	}
+}
